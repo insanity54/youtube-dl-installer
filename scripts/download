@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const reachableUrl = require('reachable-url')
+const download = require('download')
+const makeDir = require('make-dir')
+const fs = require('fs')
+
+const { prefixPath, binaryFolder, binaryPath } = require('..')
+
+const MAIN_ENDPOINT = 'https://yt-dl.org/downloads/latest/youtube-dl'
+const EXECTUABLE_PERMISSIONS = 493
+
+;(async () => {
+  const resourceUrl = prefixPath(MAIN_ENDPOINT)
+  const { url } = await reachableUrl(resourceUrl)
+  const downloadUrl = prefixPath(url)
+  await makeDir(binaryFolder)
+  download(downloadUrl).pipe(fs.createWriteStream(binaryPath, { mode: EXECTUABLE_PERMISSIONS }))
+})()
