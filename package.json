@@ -39,6 +39,7 @@
     "node": ">= 8"
   },
   "files": [
+    "bin",
     "index.js",
     "scripts"
   ],
