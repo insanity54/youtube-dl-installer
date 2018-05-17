@@ -8,7 +8,7 @@ const isWin =
 const prefixPath = path => (isWin ? `${path}.exec` : path)
 
 const binaryName = prefixPath('youtube-dl')
-const binaryFolder = path.resolve(__dirname, '..', 'bin')
+const binaryFolder = path.resolve(__dirname, 'bin')
 const binaryPath = path.join(binaryFolder, binaryName)
 
 module.exports = { path: binaryPath }
