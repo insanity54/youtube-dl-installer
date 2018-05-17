@@ -2,7 +2,7 @@
   "name": "youtube-dl-installer",
   "description": "Platform independent binary installer of youtube-dl for node projects",
   "homepage": "https://documentup.com/Kikobeats/youtube-dl-installer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
