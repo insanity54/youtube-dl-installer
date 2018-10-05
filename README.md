@@ -7,7 +7,7 @@
 [![NPM Status](https://img.shields.io/npm/dm/youtube-dl-installer-ng.svg?style=flat-square)](https://www.npmjs.org/package/youtube-dl-installer-ng)
 [![GitHub issues](https://img.shields.io/github/issues/insanity54/youtube-dl-installer-ng.svg?style=flat-square)](https://github.com/insanity54/youtube-dl-installer-ng/issues)
 
-> Platform independent binary installer of youtube-dl for node projects.
+> Platform independent binary installer of youtube-dl.
 
 Fork of [Kikobeats/youtube-dl-installer](https://github.com/Kikobeats/youtube-dl-installer) which has gone unmaintained for some time.
 
