@@ -1,20 +1,19 @@
 {
-  "name": "youtube-dl-installer",
-  "description": "Platform independent binary installer of youtube-dl for node projects",
-  "homepage": "https://documentup.com/Kikobeats/youtube-dl-installer",
+  "name": "youtube-dl-installer-ng",
+  "description": "Platform independent binary installer of youtube-dl",
   "version": "1.0.1",
   "main": "index.js",
   "author": {
-    "email": "josefrancisco.verdu@gmail.com",
-    "name": "Kiko Beats",
-    "url": "https://kikobeats.com"
+    "email": "chris@grimtech.net",
+    "name": "Chris Grimmett",
+    "url": "https://grimtech.net/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kikobeats/youtube-dl-installer.git"
+    "url": "https://github.com/insanity54/youtube-dl-installer/edit/master/package.json"
   },
   "bugs": {
-    "url": "https://github.com/Kikobeats/youtube-dl-installer/issues"
+    "url": "https://github.com/insanity54/youtube-dl-installer/issues"
   },
   "keywords": [
     "binary",
