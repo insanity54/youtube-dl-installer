@@ -26,7 +26,7 @@ Require this module in your js application. Doing so will ensure that the latest
 require('youtube-dl-installer')
 ```
 
-Following that, you can directly invoke the youtube-dl binary using [child_process](https://nodejs.org/api/child_process.html)`, or indirectly using a module such as [youtube-dl](https://www.npmjs.com/package/youtube-dl) or [ytdl-run](https://www.npmjs.com/package/ytdl-run).
+Following that, you can directly invoke the youtube-dl binary using [child_process](https://nodejs.org/api/child_process.html), or indirectly using a module such as [youtube-dl](https://www.npmjs.com/package/youtube-dl) or [ytdl-run](https://www.npmjs.com/package/ytdl-run).
 
 ### child_process example
 
