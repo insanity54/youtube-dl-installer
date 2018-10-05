@@ -22,7 +22,6 @@ $ npm install youtube-dl-installer-ng --save
 Require this module in your js application. Doing so will ensure that the latest version of youtube-dl is installed on your system. @todo add *where* it gets installed
 
 ```js
-// index.js
 require('youtube-dl-installer')
 ```
 
@@ -33,6 +32,7 @@ Following that, you can directly invoke the youtube-dl binary using [child_proce
 ```js
 'use strict'
 
+require('youtube-dl-installer')
 const { promisify } = require('util')
 const execFile = promisify(require('child_process').execFile)
 
