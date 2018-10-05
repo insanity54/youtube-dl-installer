@@ -1,10 +1,11 @@
 # youtube-dl-installer-ng
 
-![Last version](https://img.shields.io/github/tag/Kikobeats/youtube-dl-installer-ng.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/Kikobeats/youtube-dl-installer/master.svg?style=flat-square)](https://travis-ci.org/insanity54/youtube-dl-installer-ng)
-[![Dependency status](https://img.shields.io/david/Kikobeats/youtube-dl-installer.svg?style=flat-square)](https://david-dm.org/insanity54/youtube-dl-installer-ng)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/youtube-dl-installer.svg?style=flat-square)](https://david-dm.org/insanity54/youtube-dl-installer-ng#info=devDependencies)
-[![NPM Status](https://img.shields.io/npm/dm/youtube-dl-installer.svg?style=flat-square)](https://www.npmjs.org/package/youtube-dl-installer-ng)
+![Last version](https://img.shields.io/github/tag/insanity54/youtube-dl-installer-ng.svg?style=flat-square)
+[![Build Status](https://img.shields.io/travis/insanity54/youtube-dl-installer-ng/master.svg?style=flat-square)](https://travis-ci.org/insanity54/youtube-dl-installer-ng)
+[![Dependency status](https://img.shields.io/david/insanity54/youtube-dl-installer-ng.svg?style=flat-square)](https://david-dm.org/insanity54/youtube-dl-installer-ng)
+[![Dev Dependencies Status](https://img.shields.io/david/dev/insanity54/youtube-dl-installer-ng.svg?style=flat-square)](https://david-dm.org/insanity54/youtube-dl-installer-ng#info=devDependencies)
+[![NPM Status](https://img.shields.io/npm/dm/youtube-dl-installer-ng.svg?style=flat-square)](https://www.npmjs.org/package/youtube-dl-installer-ng)
+[![GitHub issues](https://img.shields.io/github/issues/insanity54/youtube-dl-installer-ng.svg?style=flat-square)](https://github.com/insanity54/youtube-dl-installer-ng/issues)
 
 > Platform independent binary installer of youtube-dl for node projects.
 
